@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow:
+Disallow: /assets
+Allow: /about
+Allow: /collection
+Allow: /goods
+
+Sitemap: https://artefact35.co/sitemap.xml

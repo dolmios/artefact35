@@ -1,0 +1,74 @@
+.s-01 {
+     padding-top: 5.0rem;
+}
+ .s-01 a,
+ .s-01 a:hover {
+     text-decoration: none;
+     border: none;
+}
+ .s-01 a:hover, .s-01 a.active {
+     text-decoration: underline;
+}
+ .s-02 {
+     padding-top: 10.0rem;
+}
+ .s-02 .row, .s-02 .p-t {
+     padding-top: 5.0rem;
+}
+ .s-02 .row:first-child {
+     padding-top: 0;
+}
+  .s-02 .row.special {
+    padding-bottom: 5.0rem;
+  }
+ @media (max-width: 749px) {
+     .s-02 .clm {
+         padding-top: 5.0rem;
+    }
+     .s-02 .clm:first-child {
+         padding-top: 0;
+    }
+}
+ .product-name {
+     vertical-align: bottom;
+     max-width: 50%;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+ @media (max-width: 749px) {
+     .product-name {
+         max-width: 42%;
+    }
+}
+ @media (min-width: 750px) and (max-width: 990px) {
+     .product-name {
+         max-width: 48%;
+    }
+}
+.s-02 .thirtyfive {
+    margin-top: 5.0rem;
+    margin-bottom: 5.0rem;
+    background: url('../images/35.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35.0rem;
+    padding-bottom: 35.0rem;
+}
+@media (min-width: 750px) {
+  .s-02 .row.prethirtyfive {
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      padding: 0;
+ }
+ .s-02 .thirtyfive {
+    margin-bottom: 0;
+ }
+}
+
+ .s-03 {
+     padding-top: 10.0rem;
+     padding-bottom: 5.0rem;
+}
