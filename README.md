@@ -1,8 +1,3 @@
-# [artefact35](https://artefact35.co)
+# artefact35
 
-**An online film camera store. (From 2016).**
-
----
-
-Legacy codebase.
-
+> An online film camera store. (From 2016).
